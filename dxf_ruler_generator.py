@@ -52,7 +52,7 @@ def run():
                 dxfattribs={'rotation': 90,
                             'height': 2,
                             'layer': 'SCAN'}
-            ).set_pos((x-1, args.width-tick_height))
+            ).set_placement((x-1, args.width-tick_height))
         elif mm % 5 == 0:
             tick_height = args.width / 6
         else:
